@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrap">
+            <div class="item-left">
+                <div class="img">
+                    <img src="https://static.mk.ru/upload/entities/2019/10/18/22/articles/detailPicture/1e/29/a3/a5/a0b656599fde72d6d31da7415a8cbad4.jpg" alt="" class="img__item">
+                </div>
+                <div class="item-left__input">
+                    <input type="text" class="img__link" value="https://static.mk.ru/upload/entities/2019/10/18/22/articles/detailPicture/1e/29/a3/a5/a0b656599fde72d6d31da7415a8cbad4.jpg" placeholder="Адрес картинки">
+                </div>
+            </div>
+            <div class="item-right">
+                <div class="item-right__input">
+                    <label for="contrast">Контраст</label>
+                    <input type="range" class="input__scroll" id="contrast" min="0" max="100" value="100">
+                </div>
+                <div class="item-right__input">
+                    <label for="brightness">Свет</label>
+                    <input type="range" class="input__scroll" id="brightness" min="0" max="100" value="100">
+                </div>
+                <div class="item-right__input">
+                    <label for="grayscale">Оттенки серого</label>
+                    <input type="range" class="input__scroll" id="grayscale" min="0" max="100" value="3">
+                </div>
+                <div class="item-right__input">
+                    <label for="sepia">Глубина</label>
+                    <input type="range" class="input__scroll" id="sepia" min="0" max="100" value="4">
+                </div>
+                <div class="item-right__input">
+                    <label for="opacity">Прозрачность</label>
+                    <input type="range" class="input__scroll" id="opacity" min="0" max="100" value="100">
+                </div>
+                <button class="button" disabled>Сбросить</button>
+            </div>
+        </div>
+    </div>
+    <form action="">
+        <input type="password" minlength="2">
+    </form>
+    <script src="test.js"></script>
+</body>
+</html>
